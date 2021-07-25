@@ -1,3 +1,0 @@
-TR : "cbws" dosyası içinde web siteye ait tüm dosyalar var. İçerisinde fazla "style.cs" dosyası var "style2.css" "style3.css" diye ayrılmıştır. "style.css" den direk kopyalayabilirsiniz. Ben silmek ve düzenlemek ile uğraşmak istemedim. 
-
-ENG : ENG : There are all files belonging to the website in the "cbws" file. There are too many "style.cs" files in it. "style2.css" is separated as "style3.css". You can copy directly from "style.css". I didn't want to deal with deleting and editing.
