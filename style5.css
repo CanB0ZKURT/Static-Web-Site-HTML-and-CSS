@@ -1,0 +1,260 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #dbdbdb;
+    font-family: 'Oxygen', sans-serif;
+}
+
+#social{
+    background-color: black;
+    color: white;
+    height: 65px;
+    width: 100%;
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+    font-size: 22;
+    text-align: right;
+    padding: 21px;
+}
+
+font{
+    font-size: 28px;
+    letter-spacing: 3px;
+    float: left;
+    margin-top: -8px;
+}
+
+span{
+    font-size: 20px;
+    letter-spacing: 1px;
+    float: left;
+    margin-left: 5px;
+    margin-top: -2px;
+}
+
+#social>i{
+    margin-right: 15px;
+    font-size: 22px;
+}
+
+#social>i:hover{
+    opacity: 0.8;
+}
+
+#container{
+    width: 80%;
+    margin: auto;
+    height: auto;
+}
+
+header{
+    width: auto;
+    height: 393px;
+    position: relative;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    background-color: black;
+    margin-bottom: 10px;
+}
+
+#centered{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 70px;
+    font-family: 'Teko', sans-serif;
+}
+
+#headerResim{
+    width: 100%;
+    height: auto;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    box-shadow: 0 2px 8px 5px #535353;
+    opacity: 0.5;
+}
+
+section{
+    width: 100%;
+    height: 418px;
+    background-color: #f1f1f1;
+    box-shadow: 0 2px 8px 5px #cccbcb;
+    margin-top: 18px;
+    overflow: auto;
+}
+
+nav{
+    width: 20%;
+    float: left;
+    margin-top: 10px;
+    height: auto;
+}
+
+nav ul{
+    width: auto;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+nav li{
+    list-style-type: none;
+}
+
+nav li a{
+    height: 50px;
+    line-height: 50px;
+    text-decoration: none;
+    color: black;
+    border-bottom: 1px solid #b4b4b4;
+    padding-left: 20px;
+    display: block;
+}
+
+nav li a:hover{
+    color: white;
+    background-color: #cacaca;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+}
+
+/* Anasayfa vb. logolar */
+i{
+    margin-right: 10px;
+}
+
+main{
+    float: left;
+    height: auto;
+    width: 80%;
+    padding: 12px;
+}
+
+.icerik{
+    width: 48%;
+    height: auto;
+    display: inline-block;
+    margin-right: 15px;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px 5px #c9c9c9;
+}
+
+.rsm{
+    width: 100%;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    transition: opacity 0.2s;
+}
+
+/*İmleci resimin üzerine getirince beyaz olmasını yarayan efekt. */
+.rsm:hover{
+    opacity: 0.8;
+}
+
+h5{
+    margin: 10px;
+    color: dimgray;
+    font-size: 25px;
+}
+
+/* Programlama nedir açıklaması */
+p{
+    margin-left: 10px;
+}
+/* "Link e etki ettiğim için diğer kısımları ayırdım aşşağıda bulabilirsin." */
+.devaminiOku:link{
+    display: block;
+    width: 150px;
+    height: 45px;
+    padding: 10px;
+    background-color: dodgerblue;
+    text-decoration: none;
+}
+
+/* "Devamını oku" yazısının rengini buradan değiştirebilirsin */
+.devaminiOku{
+    color: white;
+    border-radius: 12px;
+    margin: 10px;
+    
+}
+/* "Devamını oku" yazsının konumunu buradan değiştirebilirsin. */
+.p2{
+    margin-bottom: 10px;
+    margin: 2px;
+    margin-left: 16px;
+}
+
+/* Hover animasyonunun opaklığı ve animasyon saniyesi*/
+.devaminiOku:hover{
+    opacity: 0.8;
+}
+
+.devaminiOku{
+    transition: opacity 0.1s;
+}
+
+footer{
+    width: 100%;
+    height: 75px;
+    background-color: black;
+    color: white;
+    line-height: 75px;
+    text-align: center;
+
+}
+
+h1{
+    text-align: center;
+    background-color: black;
+    color: white;
+    height: 50px;
+    line-height: 50px;
+    margin: 0 10px;
+    border-radius: 12px;
+}
+
+#hakkimdaResim{
+    width: 480px;
+    height: autopx;
+    float: left;
+    border-radius: 12px;
+    margin: 10px;
+    margin-top: 15px;
+    margin-right: 20px;
+
+}
+
+#hakkimdaResim:hover{
+    opacity: 0.8;
+    transition: 0.2s;
+}
+
+.hakkimdaYazi{
+    font-size: 17.7px;
+}
+
+.galeriResim{
+    width: 22%;
+    height: 200px;
+    border-radius: 8px;
+    margin: 12px;
+    box-shadow: 0 2px 8px 5px #cccbcb;
+    margin-top: 18px;
+    margin-left: 19px;
+}
+
+.galeriResim:hover{
+    opacity: 0.8;
+    transition: 0.2s;
+    border: 5px solid white;
+    cursor: pointer;
+}
+
